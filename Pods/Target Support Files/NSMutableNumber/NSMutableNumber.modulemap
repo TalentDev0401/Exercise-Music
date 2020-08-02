@@ -1,0 +1,6 @@
+framework module NSMutableNumber {
+  umbrella header "NSMutableNumber-umbrella.h"
+
+  export *
+  module * { export * }
+}

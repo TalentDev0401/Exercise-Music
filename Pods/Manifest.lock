@@ -1,0 +1,72 @@
+PODS:
+  - Alamofire (4.9.1)
+  - Crashlytics (3.14.0):
+    - Fabric (~> 1.10.2)
+  - Fabric (1.10.2)
+  - Inlineobjc (1.0.5)
+  - IQKeyboardManagerSwift (6.5.5)
+  - NSMutableNumber (1.2.0)
+  - ObjectMapper (3.5.2)
+  - "ObjectMapper+Realm (1.0)":
+    - ObjectMapper
+    - RealmSwift
+  - ObjectMapperAdditions/Core (6.0.2):
+    - ObjectMapper
+  - Realm (4.4.1):
+    - Realm/Headers (= 4.4.1)
+  - Realm/Headers (4.4.1)
+  - RealmSwift (4.4.1):
+    - Realm (= 4.4.1)
+  - REDownloadTasksQueue (1.1.0):
+    - Inlineobjc
+    - NSMutableNumber
+  - SDWebImage (4.4.8):
+    - SDWebImage/Core (= 4.4.8)
+  - SDWebImage/Core (4.4.8)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.9)
+  - Crashlytics
+  - Fabric
+  - IQKeyboardManagerSwift
+  - ObjectMapper
+  - "ObjectMapper+Realm"
+  - ObjectMapperAdditions/Core
+  - RealmSwift
+  - REDownloadTasksQueue (~> 1.1)
+  - SDWebImage (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Crashlytics
+    - Fabric
+    - Inlineobjc
+    - IQKeyboardManagerSwift
+    - NSMutableNumber
+    - ObjectMapper
+    - "ObjectMapper+Realm"
+    - ObjectMapperAdditions
+    - Realm
+    - RealmSwift
+    - REDownloadTasksQueue
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Crashlytics: 540b7e5f5da5a042647227a5e3ac51d85eed06df
+  Fabric: 706c8b8098fff96c33c0db69cbf81f9c551d0d74
+  Inlineobjc: 421a4302ac39cbd4a1a60983eec9b3a3ea84d444
+  IQKeyboardManagerSwift: 0fb93310284665245591f50f7a5e38de615960b7
+  NSMutableNumber: d4e1fdd7d41f02cf244909c32580bef94b19b0ab
+  ObjectMapper: b53ae947d370bf89423e86be7d4e2d2b2a8d3f40
+  "ObjectMapper+Realm": bd713d57132bf05880a656695137764692f7d2bb
+  ObjectMapperAdditions: 923fa7cdc45a7937e08fea8c715d18fc3604b122
+  Realm: 4eb04d7487bd43c0581256f40b424eafb711deff
+  RealmSwift: 3eb8924ff7100df5928c7602f71d0fec51e7c9c5
+  REDownloadTasksQueue: 37ad66c6720946ebcf77b09e4042975d664233c5
+  SDWebImage: 783af2c3fa36291a250030c4752ee370a9a51d13
+
+PODFILE CHECKSUM: 95a5f6b362741d10109b10f14ac656337f8af3d7
+
+COCOAPODS: 1.9.1

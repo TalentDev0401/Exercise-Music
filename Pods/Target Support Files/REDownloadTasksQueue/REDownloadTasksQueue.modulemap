@@ -1,0 +1,6 @@
+framework module REDownloadTasksQueue {
+  umbrella header "REDownloadTasksQueue-umbrella.h"
+
+  export *
+  module * { export * }
+}

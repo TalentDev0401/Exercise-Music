@@ -1,0 +1,1358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		066318F756ED53F0C5AD3FFF /* Pods_exercise_music.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17171927EBF7977A1D53F4FF /* Pods_exercise_music.framework */; };
+		2FF021AAD14D35FF3CBEEAF9 /* Pods_exercise_music_exercise_musicUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 675EC132A03FD7C7137610BD /* Pods_exercise_music_exercise_musicUITests.framework */; };
+		4E6284F084C434CA56DDDEF1 /* Pods_exercise_musicTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EF759444FBEC91B41DFC9C2 /* Pods_exercise_musicTests.framework */; };
+		DD000BDE245E741200C3B323 /* ListMp3Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD000BDD245E741200C3B323 /* ListMp3Controller.swift */; };
+		DD000BE0245E743900C3B323 /* DetailPlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD000BDF245E743900C3B323 /* DetailPlayerController.swift */; };
+		DD000BE2245E7A5400C3B323 /* Mp3Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD000BE1245E7A5400C3B323 /* Mp3Cell.swift */; };
+		DD000BE4245E7A9700C3B323 /* Mp3HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD000BE3245E7A9700C3B323 /* Mp3HeaderView.swift */; };
+		DD0BBFC42461E18A008F169F /* StatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0BBFC32461E18A008F169F /* StatsViewController.swift */; };
+		DD0BBFC62461EC74008F169F /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0BBFC52461EC74008F169F /* SettingsViewController.swift */; };
+		DD0BBFC92461F7C5008F169F /* PVRadioButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0BBFC82461F7C5008F169F /* PVRadioButtonView.swift */; };
+		DD0BBFCB2461F7F0008F169F /* PVRadioButtonGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0BBFCA2461F7F0008F169F /* PVRadioButtonGroup.swift */; };
+		DD0BBFCD2461F7F8008F169F /* PVRadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0BBFCC2461F7F8008F169F /* PVRadioButton.swift */; };
+		DD10837324614C47000D6729 /* VKCheckbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD10837224614C47000D6729 /* VKCheckbox.swift */; };
+		DD1567182462960300E8800B /* AboutUsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1567172462960200E8800B /* AboutUsController.swift */; };
+		DD15671D2462995200E8800B /* InviteShareController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD15671C2462995200E8800B /* InviteShareController.swift */; };
+		DD15671F2462996300E8800B /* FeddbackController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD15671E2462996300E8800B /* FeddbackController.swift */; };
+		DD1567212462996F00E8800B /* RateUsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1567202462996F00E8800B /* RateUsController.swift */; };
+		DD1567232462B17F00E8800B /* TermsPolicyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1567222462B17F00E8800B /* TermsPolicyController.swift */; };
+		DD16C7392465C3D8002615B6 /* PremiumController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD16C7382465C3D8002615B6 /* PremiumController.swift */; };
+		DD1C37002462F4CC00E5867F /* EditProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1C36FF2462F4CC00E5867F /* EditProfileController.swift */; };
+		DD2AD6C7245F53AD00435FD3 /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2AD6C6245F53AD00435FD3 /* Authentication.swift */; };
+		DD56757E2465A2960056EEF6 /* Dispatchqueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD56757D2465A2960056EEF6 /* Dispatchqueue.swift */; };
+		DDEBEACC24654B9900BE56C5 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDEBEACB24654B9900BE56C5 /* StoreKit.framework */; };
+		DDEBEAD124654D4D00BE56C5 /* MusicProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEBEAD024654D4D00BE56C5 /* MusicProduct.swift */; };
+		DDEBEAD3246551F900BE56C5 /* IAPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEBEAD2246551F900BE56C5 /* IAPManager.swift */; };
+		DDFF9C4C245DC25B000FFAFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFF9C4B245DC25B000FFAFA /* AppDelegate.swift */; };
+		DDFF9C4E245DC25B000FFAFA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFF9C4D245DC25B000FFAFA /* SceneDelegate.swift */; };
+		DDFF9C50245DC25B000FFAFA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFF9C4F245DC25B000FFAFA /* LoginViewController.swift */; };
+		DDFF9C53245DC25C000FFAFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDFF9C51245DC25C000FFAFA /* Main.storyboard */; };
+		DDFF9C56245DC25C000FFAFA /* exercise_music.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DDFF9C54245DC25C000FFAFA /* exercise_music.xcdatamodeld */; };
+		DDFF9C58245DC25D000FFAFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDFF9C57245DC25D000FFAFA /* Assets.xcassets */; };
+		DDFF9C5B245DC25D000FFAFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDFF9C59245DC25D000FFAFA /* LaunchScreen.storyboard */; };
+		DDFF9C66245DC25D000FFAFA /* exercise_musicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFF9C65245DC25D000FFAFA /* exercise_musicTests.swift */; };
+		DDFF9C71245DC25D000FFAFA /* exercise_musicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFF9C70245DC25D000FFAFA /* exercise_musicUITests.swift */; };
+		DDFF9CC6245DC940000FFAFA /* doAlamoFire.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFF9C89245DC940000FFAFA /* doAlamoFire.swift */; };
+		DDFF9CC7245DC940000FFAFA /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFF9C8A245DC940000FFAFA /* Service.swift */; };
+		DDFF9CC8245DC940000FFAFA /* Adapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFF9C8B245DC940000FFAFA /* Adapter.swift */; };
+		DDFF9CC9245DC940000FFAFA /* UIButton+RWBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFF9C8D245DC940000FFAFA /* UIButton+RWBlock.m */; };
+		DDFF9CCA245DC940000FFAFA /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFF9C90245DC940000FFAFA /* ImageCache.swift */; };
+		DDFF9CCB245DC940000FFAFA /* UIImage+AlamofireImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFF9C91245DC940000FFAFA /* UIImage+AlamofireImage.swift */; };
+		DDFF9CCC245DC940000FFAFA /* AFIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFF9C92245DC940000FFAFA /* AFIError.swift */; };
+		DDFF9CCD245DC940000FFAFA /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFF9C93245DC940000FFAFA /* Image.swift */; };
+		DDFF9CCE245DC940000FFAFA /* UIButton+AlamofireImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFF9C94245DC940000FFAFA /* UIButton+AlamofireImage.swift */; };
+		DDFF9CCF245DC940000FFAFA /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFF9C95245DC940000FFAFA /* ImageDownloader.swift */; };
+		DDFF9CD0245DC940000FFAFA /* UIImageView+AlamofireImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFF9C96245DC940000FFAFA /* UIImageView+AlamofireImage.swift */; };
+		DDFF9CD1245DC940000FFAFA /* Request+AlamofireImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFF9C97245DC940000FFAFA /* Request+AlamofireImage.swift */; };
+		DDFF9CD2245DC940000FFAFA /* ImageFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFF9C98245DC940000FFAFA /* ImageFilter.swift */; };
+		DDFF9CD3245DC940000FFAFA /* RadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFF9C9A245DC940000FFAFA /* RadioButton.m */; };
+		DDFF9CD4245DC940000FFAFA /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFF9C9E245DC940000FFAFA /* SWRevealViewController.m */; };
+		DDFF9CD5245DC940000FFAFA /* HelperMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFF9CA0245DC940000FFAFA /* HelperMethod.m */; };
+		DDFF9CD6245DC940000FFAFA /* ALToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFF9CA3245DC940000FFAFA /* ALToastView.m */; };
+		DDFF9CD7245DC940000FFAFA /* UINavigationBar+CustomNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFF9CA6245DC940000FFAFA /* UINavigationBar+CustomNavigation.m */; };
+		DDFF9CD8245DC940000FFAFA /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFF9CA9245DC940000FFAFA /* Utils.swift */; };
+		DDFF9CD9245DC940000FFAFA /* ACFloatingTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFF9CAC245DC940000FFAFA /* ACFloatingTextField.m */; };
+		DDFF9CDA245DC940000FFAFA /* ACFloatingTextField+ClipBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFF9CAD245DC940000FFAFA /* ACFloatingTextField+ClipBoard.m */; };
+		DDFF9CDB245DC940000FFAFA /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFF9CB0245DC940000FFAFA /* AppConstant.swift */; };
+		DDFF9CDC245DC940000FFAFA /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFF9CB2245DC940000FFAFA /* Reachability.swift */; };
+		DDFF9CDD245DC940000FFAFA /* JukeboxItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFF9CB5245DC940000FFAFA /* JukeboxItem.swift */; };
+		DDFF9CDE245DC940000FFAFA /* Jukebox.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFF9CB6245DC940000FFAFA /* Jukebox.swift */; };
+		DDFF9CDF245DC940000FFAFA /* JukeBoxUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFF9CB7245DC940000FFAFA /* JukeBoxUtils.swift */; };
+		DDFF9CE0245DC940000FFAFA /* RealmUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFF9CB9245DC940000FFAFA /* RealmUtils.swift */; };
+		DDFF9CE1245DC940000FFAFA /* CircularSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFF9CBB245DC940000FFAFA /* CircularSliderView.m */; };
+		DDFF9CE2245DC940000FFAFA /* EFCircularTrig.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFF9CBC245DC940000FFAFA /* EFCircularTrig.m */; };
+		DDFF9CE3245DC940000FFAFA /* EFCircularSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFF9CBD245DC940000FFAFA /* EFCircularSlider.m */; };
+		DDFF9CE4245DC940000FFAFA /* F3BarGauge.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFF9CBE245DC940000FFAFA /* F3BarGauge.m */; };
+		DDFF9CE5245DC940000FFAFA /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFF9CC4245DC940000FFAFA /* MBProgressHUD.m */; };
+		DDFF9CF2245DCABE000FFAFA /* CategoryObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFF9CEC245DCABD000FFAFA /* CategoryObj.swift */; };
+		DDFF9CF3245DCABE000FFAFA /* DownloadObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFF9CED245DCABE000FFAFA /* DownloadObj.swift */; };
+		DDFF9CF4245DCABE000FFAFA /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFF9CEE245DCABE000FFAFA /* Download.swift */; };
+		DDFF9CFD245DD7C0000FFAFA /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFF9CFC245DD7C0000FFAFA /* SignupViewController.swift */; };
+		DDFF9CFF245DD818000FFAFA /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFF9CFE245DD818000FFAFA /* WelcomeViewController.swift */; };
+		DDFF9D01245DD8C1000FFAFA /* ForgotPasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFF9D00245DD8C1000FFAFA /* ForgotPasswordController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDFF9C62245DC25D000FFAFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDFF9C40245DC25B000FFAFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDFF9C47245DC25B000FFAFA;
+			remoteInfo = exercise_music;
+		};
+		DDFF9C6D245DC25D000FFAFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDFF9C40245DC25B000FFAFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDFF9C47245DC25B000FFAFA;
+			remoteInfo = exercise_music;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17171927EBF7977A1D53F4FF /* Pods_exercise_music.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_exercise_music.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30D88C658D9CD3FE921221D1 /* Pods-exercise_music-exercise_musicUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-exercise_music-exercise_musicUITests.release.xcconfig"; path = "Target Support Files/Pods-exercise_music-exercise_musicUITests/Pods-exercise_music-exercise_musicUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4EF759444FBEC91B41DFC9C2 /* Pods_exercise_musicTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_exercise_musicTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55AA1391670546883374E15D /* Pods-exercise_music.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-exercise_music.release.xcconfig"; path = "Target Support Files/Pods-exercise_music/Pods-exercise_music.release.xcconfig"; sourceTree = "<group>"; };
+		675EC132A03FD7C7137610BD /* Pods_exercise_music_exercise_musicUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_exercise_music_exercise_musicUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		918FA74005410A5561CB83B8 /* Pods-exercise_music-exercise_musicUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-exercise_music-exercise_musicUITests.debug.xcconfig"; path = "Target Support Files/Pods-exercise_music-exercise_musicUITests/Pods-exercise_music-exercise_musicUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		91B4E3F9E3D207ED4F1438B7 /* Pods-exercise_music.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-exercise_music.debug.xcconfig"; path = "Target Support Files/Pods-exercise_music/Pods-exercise_music.debug.xcconfig"; sourceTree = "<group>"; };
+		D31C785AB25E95FF34873C5A /* Pods-exercise_musicTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-exercise_musicTests.debug.xcconfig"; path = "Target Support Files/Pods-exercise_musicTests/Pods-exercise_musicTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DD000BDD245E741200C3B323 /* ListMp3Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMp3Controller.swift; sourceTree = "<group>"; };
+		DD000BDF245E743900C3B323 /* DetailPlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPlayerController.swift; sourceTree = "<group>"; };
+		DD000BE1245E7A5400C3B323 /* Mp3Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mp3Cell.swift; sourceTree = "<group>"; };
+		DD000BE3245E7A9700C3B323 /* Mp3HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mp3HeaderView.swift; sourceTree = "<group>"; };
+		DD0BBFC32461E18A008F169F /* StatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsViewController.swift; sourceTree = "<group>"; };
+		DD0BBFC52461EC74008F169F /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		DD0BBFC82461F7C5008F169F /* PVRadioButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PVRadioButtonView.swift; sourceTree = "<group>"; };
+		DD0BBFCA2461F7F0008F169F /* PVRadioButtonGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PVRadioButtonGroup.swift; sourceTree = "<group>"; };
+		DD0BBFCC2461F7F8008F169F /* PVRadioButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PVRadioButton.swift; sourceTree = "<group>"; };
+		DD10837224614C47000D6729 /* VKCheckbox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VKCheckbox.swift; sourceTree = "<group>"; };
+		DD1567172462960200E8800B /* AboutUsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsController.swift; sourceTree = "<group>"; };
+		DD15671C2462995200E8800B /* InviteShareController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteShareController.swift; sourceTree = "<group>"; };
+		DD15671E2462996300E8800B /* FeddbackController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeddbackController.swift; sourceTree = "<group>"; };
+		DD1567202462996F00E8800B /* RateUsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateUsController.swift; sourceTree = "<group>"; };
+		DD1567222462B17F00E8800B /* TermsPolicyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsPolicyController.swift; sourceTree = "<group>"; };
+		DD16C7382465C3D8002615B6 /* PremiumController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumController.swift; sourceTree = "<group>"; };
+		DD1C36FF2462F4CC00E5867F /* EditProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileController.swift; sourceTree = "<group>"; };
+		DD2AD6C6245F53AD00435FD3 /* Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
+		DD56757D2465A2960056EEF6 /* Dispatchqueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dispatchqueue.swift; sourceTree = "<group>"; };
+		DDEBEACB24654B9900BE56C5 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		DDEBEAD024654D4D00BE56C5 /* MusicProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicProduct.swift; sourceTree = "<group>"; };
+		DDEBEAD2246551F900BE56C5 /* IAPManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IAPManager.swift; sourceTree = "<group>"; };
+		DDFF9C48245DC25B000FFAFA /* exercise_music.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = exercise_music.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDFF9C4B245DC25B000FFAFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDFF9C4D245DC25B000FFAFA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DDFF9C4F245DC25B000FFAFA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DDFF9C52245DC25C000FFAFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDFF9C55245DC25C000FFAFA /* exercise_music.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = exercise_music.xcdatamodel; sourceTree = "<group>"; };
+		DDFF9C57245DC25D000FFAFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDFF9C5A245DC25D000FFAFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDFF9C5C245DC25D000FFAFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDFF9C61245DC25D000FFAFA /* exercise_musicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = exercise_musicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDFF9C65245DC25D000FFAFA /* exercise_musicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exercise_musicTests.swift; sourceTree = "<group>"; };
+		DDFF9C67245DC25D000FFAFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDFF9C6C245DC25D000FFAFA /* exercise_musicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = exercise_musicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDFF9C70245DC25D000FFAFA /* exercise_musicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exercise_musicUITests.swift; sourceTree = "<group>"; };
+		DDFF9C72245DC25D000FFAFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDFF9C89245DC940000FFAFA /* doAlamoFire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = doAlamoFire.swift; sourceTree = "<group>"; };
+		DDFF9C8A245DC940000FFAFA /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		DDFF9C8B245DC940000FFAFA /* Adapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Adapter.swift; sourceTree = "<group>"; };
+		DDFF9C8D245DC940000FFAFA /* UIButton+RWBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+RWBlock.m"; sourceTree = "<group>"; };
+		DDFF9C8E245DC940000FFAFA /* UIButton+RWBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+RWBlock.h"; sourceTree = "<group>"; };
+		DDFF9C90245DC940000FFAFA /* ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		DDFF9C91245DC940000FFAFA /* UIImage+AlamofireImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+AlamofireImage.swift"; sourceTree = "<group>"; };
+		DDFF9C92245DC940000FFAFA /* AFIError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AFIError.swift; sourceTree = "<group>"; };
+		DDFF9C93245DC940000FFAFA /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		DDFF9C94245DC940000FFAFA /* UIButton+AlamofireImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+AlamofireImage.swift"; sourceTree = "<group>"; };
+		DDFF9C95245DC940000FFAFA /* ImageDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+		DDFF9C96245DC940000FFAFA /* UIImageView+AlamofireImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+AlamofireImage.swift"; sourceTree = "<group>"; };
+		DDFF9C97245DC940000FFAFA /* Request+AlamofireImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Request+AlamofireImage.swift"; sourceTree = "<group>"; };
+		DDFF9C98245DC940000FFAFA /* ImageFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageFilter.swift; sourceTree = "<group>"; };
+		DDFF9C9A245DC940000FFAFA /* RadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadioButton.m; sourceTree = "<group>"; };
+		DDFF9C9B245DC940000FFAFA /* RadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadioButton.h; sourceTree = "<group>"; };
+		DDFF9C9D245DC940000FFAFA /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		DDFF9C9E245DC940000FFAFA /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		DDFF9CA0245DC940000FFAFA /* HelperMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelperMethod.m; sourceTree = "<group>"; };
+		DDFF9CA1245DC940000FFAFA /* HelperMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelperMethod.h; sourceTree = "<group>"; };
+		DDFF9CA3245DC940000FFAFA /* ALToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALToastView.m; sourceTree = "<group>"; };
+		DDFF9CA4245DC940000FFAFA /* ALToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALToastView.h; sourceTree = "<group>"; };
+		DDFF9CA6245DC940000FFAFA /* UINavigationBar+CustomNavigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+CustomNavigation.m"; sourceTree = "<group>"; };
+		DDFF9CA7245DC940000FFAFA /* UINavigationBar+CustomNavigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+CustomNavigation.h"; sourceTree = "<group>"; };
+		DDFF9CA9245DC940000FFAFA /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		DDFF9CAB245DC940000FFAFA /* ACFloatingTextField+ClipBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ACFloatingTextField+ClipBoard.h"; sourceTree = "<group>"; };
+		DDFF9CAC245DC940000FFAFA /* ACFloatingTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACFloatingTextField.m; sourceTree = "<group>"; };
+		DDFF9CAD245DC940000FFAFA /* ACFloatingTextField+ClipBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ACFloatingTextField+ClipBoard.m"; sourceTree = "<group>"; };
+		DDFF9CAE245DC940000FFAFA /* ACFloatingTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACFloatingTextField.h; sourceTree = "<group>"; };
+		DDFF9CB0245DC940000FFAFA /* AppConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
+		DDFF9CB2245DC940000FFAFA /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		DDFF9CB4245DC940000FFAFA /* Jukebox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Jukebox.h; sourceTree = "<group>"; };
+		DDFF9CB5245DC940000FFAFA /* JukeboxItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JukeboxItem.swift; sourceTree = "<group>"; };
+		DDFF9CB6245DC940000FFAFA /* Jukebox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jukebox.swift; sourceTree = "<group>"; };
+		DDFF9CB7245DC940000FFAFA /* JukeBoxUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JukeBoxUtils.swift; sourceTree = "<group>"; };
+		DDFF9CB9245DC940000FFAFA /* RealmUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmUtils.swift; sourceTree = "<group>"; };
+		DDFF9CBB245DC940000FFAFA /* CircularSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircularSliderView.m; sourceTree = "<group>"; };
+		DDFF9CBC245DC940000FFAFA /* EFCircularTrig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFCircularTrig.m; sourceTree = "<group>"; };
+		DDFF9CBD245DC940000FFAFA /* EFCircularSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFCircularSlider.m; sourceTree = "<group>"; };
+		DDFF9CBE245DC940000FFAFA /* F3BarGauge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = F3BarGauge.m; sourceTree = "<group>"; };
+		DDFF9CBF245DC940000FFAFA /* CircularSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircularSliderView.h; sourceTree = "<group>"; };
+		DDFF9CC0245DC940000FFAFA /* EFCircularTrig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFCircularTrig.h; sourceTree = "<group>"; };
+		DDFF9CC1245DC940000FFAFA /* F3BarGauge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = F3BarGauge.h; sourceTree = "<group>"; };
+		DDFF9CC2245DC940000FFAFA /* EFCircularSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFCircularSlider.h; sourceTree = "<group>"; };
+		DDFF9CC4245DC940000FFAFA /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		DDFF9CC5245DC940000FFAFA /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		DDFF9CE6245DC9E7000FFAFA /* exercise_music-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "exercise_music-Bridging-Header.h"; sourceTree = "<group>"; };
+		DDFF9CEC245DCABD000FFAFA /* CategoryObj.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryObj.swift; sourceTree = "<group>"; };
+		DDFF9CED245DCABE000FFAFA /* DownloadObj.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadObj.swift; sourceTree = "<group>"; };
+		DDFF9CEE245DCABE000FFAFA /* Download.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Download.swift; sourceTree = "<group>"; };
+		DDFF9CF9245DD216000FFAFA /* ProximaNova-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Bold.ttf"; sourceTree = "<group>"; };
+		DDFF9CFA245DD21D000FFAFA /* ProximaNova-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Light.ttf"; sourceTree = "<group>"; };
+		DDFF9CFC245DD7C0000FFAFA /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		DDFF9CFE245DD818000FFAFA /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		DDFF9D00245DD8C1000FFAFA /* ForgotPasswordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordController.swift; sourceTree = "<group>"; };
+		F43854C6CBBC3427CF25C7A5 /* Pods-exercise_musicTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-exercise_musicTests.release.xcconfig"; path = "Target Support Files/Pods-exercise_musicTests/Pods-exercise_musicTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDFF9C45245DC25B000FFAFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				066318F756ED53F0C5AD3FFF /* Pods_exercise_music.framework in Frameworks */,
+				DDEBEACC24654B9900BE56C5 /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFF9C5E245DC25D000FFAFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E6284F084C434CA56DDDEF1 /* Pods_exercise_musicTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFF9C69245DC25D000FFAFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FF021AAD14D35FF3CBEEAF9 /* Pods_exercise_music_exercise_musicUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D980C0550EA273FFE9AC381 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDEBEACB24654B9900BE56C5 /* StoreKit.framework */,
+				17171927EBF7977A1D53F4FF /* Pods_exercise_music.framework */,
+				675EC132A03FD7C7137610BD /* Pods_exercise_music_exercise_musicUITests.framework */,
+				4EF759444FBEC91B41DFC9C2 /* Pods_exercise_musicTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6810073A98752E4CF72074C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91B4E3F9E3D207ED4F1438B7 /* Pods-exercise_music.debug.xcconfig */,
+				55AA1391670546883374E15D /* Pods-exercise_music.release.xcconfig */,
+				918FA74005410A5561CB83B8 /* Pods-exercise_music-exercise_musicUITests.debug.xcconfig */,
+				30D88C658D9CD3FE921221D1 /* Pods-exercise_music-exercise_musicUITests.release.xcconfig */,
+				D31C785AB25E95FF34873C5A /* Pods-exercise_musicTests.debug.xcconfig */,
+				F43854C6CBBC3427CF25C7A5 /* Pods-exercise_musicTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DD000BDA245E737700C3B323 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DD000BDD245E741200C3B323 /* ListMp3Controller.swift */,
+				DD000BDF245E743900C3B323 /* DetailPlayerController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DD000BDB245E738100C3B323 /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				DD0BBFC32461E18A008F169F /* StatsViewController.swift */,
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
+		DD000BDC245E738A00C3B323 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				DD0BBFC52461EC74008F169F /* SettingsViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		DD0BBFC72461F7B5008F169F /* PVRadioButtonView */ = {
+			isa = PBXGroup;
+			children = (
+				DD0BBFCC2461F7F8008F169F /* PVRadioButton.swift */,
+				DD0BBFCA2461F7F0008F169F /* PVRadioButtonGroup.swift */,
+				DD0BBFC82461F7C5008F169F /* PVRadioButtonView.swift */,
+			);
+			path = PVRadioButtonView;
+			sourceTree = "<group>";
+		};
+		DD10837124614C38000D6729 /* VKCheckBox */ = {
+			isa = PBXGroup;
+			children = (
+				DD10837224614C47000D6729 /* VKCheckbox.swift */,
+			);
+			path = VKCheckBox;
+			sourceTree = "<group>";
+		};
+		DD156716246295E800E8800B /* AboutUs */ = {
+			isa = PBXGroup;
+			children = (
+				DD1567172462960200E8800B /* AboutUsController.swift */,
+			);
+			path = AboutUs;
+			sourceTree = "<group>";
+		};
+		DD1567192462991400E8800B /* Invite */ = {
+			isa = PBXGroup;
+			children = (
+				DD15671C2462995200E8800B /* InviteShareController.swift */,
+			);
+			path = Invite;
+			sourceTree = "<group>";
+		};
+		DD15671A2462993000E8800B /* Feedback */ = {
+			isa = PBXGroup;
+			children = (
+				DD15671E2462996300E8800B /* FeddbackController.swift */,
+			);
+			path = Feedback;
+			sourceTree = "<group>";
+		};
+		DD15671B2462993C00E8800B /* RateUs */ = {
+			isa = PBXGroup;
+			children = (
+				DD1567202462996F00E8800B /* RateUsController.swift */,
+			);
+			path = RateUs;
+			sourceTree = "<group>";
+		};
+		DD16C7372465C3BA002615B6 /* Preminum */ = {
+			isa = PBXGroup;
+			children = (
+				DD16C7382465C3D8002615B6 /* PremiumController.swift */,
+			);
+			path = Preminum;
+			sourceTree = "<group>";
+		};
+		DD1C37012462F4D300E5867F /* EditProfile */ = {
+			isa = PBXGroup;
+			children = (
+				DD1C36FF2462F4CC00E5867F /* EditProfileController.swift */,
+			);
+			path = EditProfile;
+			sourceTree = "<group>";
+		};
+		DDEBEACD24654CF800BE56C5 /* InAppPurchase */ = {
+			isa = PBXGroup;
+			children = (
+				DDEBEAD2246551F900BE56C5 /* IAPManager.swift */,
+				DDEBEAD024654D4D00BE56C5 /* MusicProduct.swift */,
+			);
+			path = InAppPurchase;
+			sourceTree = "<group>";
+		};
+		DDFF9C3F245DC25B000FFAFA = {
+			isa = PBXGroup;
+			children = (
+				DDFF9C4A245DC25B000FFAFA /* exercise_music */,
+				DDFF9C64245DC25D000FFAFA /* exercise_musicTests */,
+				DDFF9C6F245DC25D000FFAFA /* exercise_musicUITests */,
+				DDFF9C49245DC25B000FFAFA /* Products */,
+				6810073A98752E4CF72074C4 /* Pods */,
+				3D980C0550EA273FFE9AC381 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DDFF9C49245DC25B000FFAFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDFF9C48245DC25B000FFAFA /* exercise_music.app */,
+				DDFF9C61245DC25D000FFAFA /* exercise_musicTests.xctest */,
+				DDFF9C6C245DC25D000FFAFA /* exercise_musicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDFF9C4A245DC25B000FFAFA /* exercise_music */ = {
+			isa = PBXGroup;
+			children = (
+				DDFF9C7E245DC276000FFAFA /* Application */,
+				DDFF9C7F245DC28B000FFAFA /* Storyboard */,
+				DDFF9C85245DC373000FFAFA /* Models */,
+				DDFF9C86245DC387000FFAFA /* Views */,
+				DDFF9C82245DC327000FFAFA /* Controllers */,
+				DDFF9C83245DC34F000FFAFA /* Extensions */,
+				DDFF9C87245DC940000FFAFA /* HelperClass */,
+				DDFF9C81245DC306000FFAFA /* Assets */,
+				DDFF9C80245DC2A0000FFAFA /* Resources */,
+			);
+			path = exercise_music;
+			sourceTree = "<group>";
+		};
+		DDFF9C64245DC25D000FFAFA /* exercise_musicTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDFF9C65245DC25D000FFAFA /* exercise_musicTests.swift */,
+				DDFF9C67245DC25D000FFAFA /* Info.plist */,
+			);
+			path = exercise_musicTests;
+			sourceTree = "<group>";
+		};
+		DDFF9C6F245DC25D000FFAFA /* exercise_musicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DDFF9C70245DC25D000FFAFA /* exercise_musicUITests.swift */,
+				DDFF9C72245DC25D000FFAFA /* Info.plist */,
+			);
+			path = exercise_musicUITests;
+			sourceTree = "<group>";
+		};
+		DDFF9C7E245DC276000FFAFA /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				DDFF9C4B245DC25B000FFAFA /* AppDelegate.swift */,
+				DDFF9C4D245DC25B000FFAFA /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		DDFF9C7F245DC28B000FFAFA /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				DDFF9C59245DC25D000FFAFA /* LaunchScreen.storyboard */,
+				DDFF9C51245DC25C000FFAFA /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		DDFF9C80245DC2A0000FFAFA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DDFF9C5C245DC25D000FFAFA /* Info.plist */,
+				DDFF9C54245DC25C000FFAFA /* exercise_music.xcdatamodeld */,
+				DDFF9CF9245DD216000FFAFA /* ProximaNova-Bold.ttf */,
+				DDFF9CFA245DD21D000FFAFA /* ProximaNova-Light.ttf */,
+				DDFF9CE6245DC9E7000FFAFA /* exercise_music-Bridging-Header.h */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DDFF9C81245DC306000FFAFA /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				DDFF9C57245DC25D000FFAFA /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		DDFF9C82245DC327000FFAFA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DDFF9CFB245DD784000FFAFA /* Authentication */,
+				DD000BDA245E737700C3B323 /* Home */,
+				DD16C7372465C3BA002615B6 /* Preminum */,
+				DD000BDB245E738100C3B323 /* Stats */,
+				DD000BDC245E738A00C3B323 /* Settings */,
+				DD1C37012462F4D300E5867F /* EditProfile */,
+				DD156716246295E800E8800B /* AboutUs */,
+				DD1567192462991400E8800B /* Invite */,
+				DD15671A2462993000E8800B /* Feedback */,
+				DD15671B2462993C00E8800B /* RateUs */,
+				DDFF9D04245DD8DE000FFAFA /* TermsAndPolicy */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DDFF9C83245DC34F000FFAFA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DD56757D2465A2960056EEF6 /* Dispatchqueue.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DDFF9C85245DC373000FFAFA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DDFF9CEC245DCABD000FFAFA /* CategoryObj.swift */,
+				DDFF9CEE245DCABE000FFAFA /* Download.swift */,
+				DDFF9CED245DCABE000FFAFA /* DownloadObj.swift */,
+				DD2AD6C6245F53AD00435FD3 /* Authentication.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DDFF9C86245DC387000FFAFA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DD000BE1245E7A5400C3B323 /* Mp3Cell.swift */,
+				DD000BE3245E7A9700C3B323 /* Mp3HeaderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DDFF9C87245DC940000FFAFA /* HelperClass */ = {
+			isa = PBXGroup;
+			children = (
+				DDEBEACD24654CF800BE56C5 /* InAppPurchase */,
+				DD0BBFC72461F7B5008F169F /* PVRadioButtonView */,
+				DD10837124614C38000D6729 /* VKCheckBox */,
+				DDFF9C88245DC940000FFAFA /* AlamofireUtils */,
+				DDFF9C8C245DC940000FFAFA /* ActionButton */,
+				DDFF9C8F245DC940000FFAFA /* AlamofireImage */,
+				DDFF9C99245DC940000FFAFA /* RadioButton */,
+				DDFF9C9C245DC940000FFAFA /* SWRevealViewController */,
+				DDFF9C9F245DC940000FFAFA /* HelperMethod */,
+				DDFF9CA2245DC940000FFAFA /* Toast */,
+				DDFF9CA5245DC940000FFAFA /* Navigation */,
+				DDFF9CA8245DC940000FFAFA /* Utils */,
+				DDFF9CAA245DC940000FFAFA /* ACFloatingTextField */,
+				DDFF9CAF245DC940000FFAFA /* Constant */,
+				DDFF9CB1245DC940000FFAFA /* Reachability */,
+				DDFF9CB3245DC940000FFAFA /* Jukebox */,
+				DDFF9CB8245DC940000FFAFA /* RealmUtils */,
+				DDFF9CBA245DC940000FFAFA /* CircularSlider */,
+				DDFF9CC3245DC940000FFAFA /* MBProgressHUD */,
+			);
+			path = HelperClass;
+			sourceTree = "<group>";
+		};
+		DDFF9C88245DC940000FFAFA /* AlamofireUtils */ = {
+			isa = PBXGroup;
+			children = (
+				DDFF9C89245DC940000FFAFA /* doAlamoFire.swift */,
+				DDFF9C8A245DC940000FFAFA /* Service.swift */,
+				DDFF9C8B245DC940000FFAFA /* Adapter.swift */,
+			);
+			path = AlamofireUtils;
+			sourceTree = "<group>";
+		};
+		DDFF9C8C245DC940000FFAFA /* ActionButton */ = {
+			isa = PBXGroup;
+			children = (
+				DDFF9C8D245DC940000FFAFA /* UIButton+RWBlock.m */,
+				DDFF9C8E245DC940000FFAFA /* UIButton+RWBlock.h */,
+			);
+			path = ActionButton;
+			sourceTree = "<group>";
+		};
+		DDFF9C8F245DC940000FFAFA /* AlamofireImage */ = {
+			isa = PBXGroup;
+			children = (
+				DDFF9C90245DC940000FFAFA /* ImageCache.swift */,
+				DDFF9C91245DC940000FFAFA /* UIImage+AlamofireImage.swift */,
+				DDFF9C92245DC940000FFAFA /* AFIError.swift */,
+				DDFF9C93245DC940000FFAFA /* Image.swift */,
+				DDFF9C94245DC940000FFAFA /* UIButton+AlamofireImage.swift */,
+				DDFF9C95245DC940000FFAFA /* ImageDownloader.swift */,
+				DDFF9C96245DC940000FFAFA /* UIImageView+AlamofireImage.swift */,
+				DDFF9C97245DC940000FFAFA /* Request+AlamofireImage.swift */,
+				DDFF9C98245DC940000FFAFA /* ImageFilter.swift */,
+			);
+			path = AlamofireImage;
+			sourceTree = "<group>";
+		};
+		DDFF9C99245DC940000FFAFA /* RadioButton */ = {
+			isa = PBXGroup;
+			children = (
+				DDFF9C9A245DC940000FFAFA /* RadioButton.m */,
+				DDFF9C9B245DC940000FFAFA /* RadioButton.h */,
+			);
+			path = RadioButton;
+			sourceTree = "<group>";
+		};
+		DDFF9C9C245DC940000FFAFA /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DDFF9C9D245DC940000FFAFA /* SWRevealViewController.h */,
+				DDFF9C9E245DC940000FFAFA /* SWRevealViewController.m */,
+			);
+			path = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		DDFF9C9F245DC940000FFAFA /* HelperMethod */ = {
+			isa = PBXGroup;
+			children = (
+				DDFF9CA0245DC940000FFAFA /* HelperMethod.m */,
+				DDFF9CA1245DC940000FFAFA /* HelperMethod.h */,
+			);
+			path = HelperMethod;
+			sourceTree = "<group>";
+		};
+		DDFF9CA2245DC940000FFAFA /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				DDFF9CA3245DC940000FFAFA /* ALToastView.m */,
+				DDFF9CA4245DC940000FFAFA /* ALToastView.h */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		DDFF9CA5245DC940000FFAFA /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				DDFF9CA6245DC940000FFAFA /* UINavigationBar+CustomNavigation.m */,
+				DDFF9CA7245DC940000FFAFA /* UINavigationBar+CustomNavigation.h */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		DDFF9CA8245DC940000FFAFA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DDFF9CA9245DC940000FFAFA /* Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		DDFF9CAA245DC940000FFAFA /* ACFloatingTextField */ = {
+			isa = PBXGroup;
+			children = (
+				DDFF9CAB245DC940000FFAFA /* ACFloatingTextField+ClipBoard.h */,
+				DDFF9CAC245DC940000FFAFA /* ACFloatingTextField.m */,
+				DDFF9CAD245DC940000FFAFA /* ACFloatingTextField+ClipBoard.m */,
+				DDFF9CAE245DC940000FFAFA /* ACFloatingTextField.h */,
+			);
+			path = ACFloatingTextField;
+			sourceTree = "<group>";
+		};
+		DDFF9CAF245DC940000FFAFA /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				DDFF9CB0245DC940000FFAFA /* AppConstant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		DDFF9CB1245DC940000FFAFA /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				DDFF9CB2245DC940000FFAFA /* Reachability.swift */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		DDFF9CB3245DC940000FFAFA /* Jukebox */ = {
+			isa = PBXGroup;
+			children = (
+				DDFF9CB4245DC940000FFAFA /* Jukebox.h */,
+				DDFF9CB5245DC940000FFAFA /* JukeboxItem.swift */,
+				DDFF9CB6245DC940000FFAFA /* Jukebox.swift */,
+				DDFF9CB7245DC940000FFAFA /* JukeBoxUtils.swift */,
+			);
+			path = Jukebox;
+			sourceTree = "<group>";
+		};
+		DDFF9CB8245DC940000FFAFA /* RealmUtils */ = {
+			isa = PBXGroup;
+			children = (
+				DDFF9CB9245DC940000FFAFA /* RealmUtils.swift */,
+			);
+			path = RealmUtils;
+			sourceTree = "<group>";
+		};
+		DDFF9CBA245DC940000FFAFA /* CircularSlider */ = {
+			isa = PBXGroup;
+			children = (
+				DDFF9CBB245DC940000FFAFA /* CircularSliderView.m */,
+				DDFF9CBC245DC940000FFAFA /* EFCircularTrig.m */,
+				DDFF9CBD245DC940000FFAFA /* EFCircularSlider.m */,
+				DDFF9CBE245DC940000FFAFA /* F3BarGauge.m */,
+				DDFF9CBF245DC940000FFAFA /* CircularSliderView.h */,
+				DDFF9CC0245DC940000FFAFA /* EFCircularTrig.h */,
+				DDFF9CC1245DC940000FFAFA /* F3BarGauge.h */,
+				DDFF9CC2245DC940000FFAFA /* EFCircularSlider.h */,
+			);
+			path = CircularSlider;
+			sourceTree = "<group>";
+		};
+		DDFF9CC3245DC940000FFAFA /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				DDFF9CC4245DC940000FFAFA /* MBProgressHUD.m */,
+				DDFF9CC5245DC940000FFAFA /* MBProgressHUD.h */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		DDFF9CFB245DD784000FFAFA /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				DDFF9CFE245DD818000FFAFA /* WelcomeViewController.swift */,
+				DDFF9CFC245DD7C0000FFAFA /* SignupViewController.swift */,
+				DDFF9C4F245DC25B000FFAFA /* LoginViewController.swift */,
+				DDFF9D00245DD8C1000FFAFA /* ForgotPasswordController.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		DDFF9D04245DD8DE000FFAFA /* TermsAndPolicy */ = {
+			isa = PBXGroup;
+			children = (
+				DD1567222462B17F00E8800B /* TermsPolicyController.swift */,
+			);
+			path = TermsAndPolicy;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDFF9C47245DC25B000FFAFA /* exercise_music */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDFF9C75245DC25D000FFAFA /* Build configuration list for PBXNativeTarget "exercise_music" */;
+			buildPhases = (
+				D1B76ADADEA17AC7F5E8AA4A /* [CP] Check Pods Manifest.lock */,
+				DDFF9C44245DC25B000FFAFA /* Sources */,
+				DDFF9C45245DC25B000FFAFA /* Frameworks */,
+				DDFF9C46245DC25B000FFAFA /* Resources */,
+				0C7142BB49E8AC5748B3E689 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = exercise_music;
+			productName = exercise_music;
+			productReference = DDFF9C48245DC25B000FFAFA /* exercise_music.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDFF9C60245DC25D000FFAFA /* exercise_musicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDFF9C78245DC25D000FFAFA /* Build configuration list for PBXNativeTarget "exercise_musicTests" */;
+			buildPhases = (
+				283C23E7572388D2309263FA /* [CP] Check Pods Manifest.lock */,
+				DDFF9C5D245DC25D000FFAFA /* Sources */,
+				DDFF9C5E245DC25D000FFAFA /* Frameworks */,
+				DDFF9C5F245DC25D000FFAFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDFF9C63245DC25D000FFAFA /* PBXTargetDependency */,
+			);
+			name = exercise_musicTests;
+			productName = exercise_musicTests;
+			productReference = DDFF9C61245DC25D000FFAFA /* exercise_musicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDFF9C6B245DC25D000FFAFA /* exercise_musicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDFF9C7B245DC25D000FFAFA /* Build configuration list for PBXNativeTarget "exercise_musicUITests" */;
+			buildPhases = (
+				7CEF94D617DAFA7FA25F2FE2 /* [CP] Check Pods Manifest.lock */,
+				DDFF9C68245DC25D000FFAFA /* Sources */,
+				DDFF9C69245DC25D000FFAFA /* Frameworks */,
+				DDFF9C6A245DC25D000FFAFA /* Resources */,
+				D1F0E8411179FE423BA969A7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDFF9C6E245DC25D000FFAFA /* PBXTargetDependency */,
+			);
+			name = exercise_musicUITests;
+			productName = exercise_musicUITests;
+			productReference = DDFF9C6C245DC25D000FFAFA /* exercise_musicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDFF9C40245DC25B000FFAFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = Admin;
+				TargetAttributes = {
+					DDFF9C47245DC25B000FFAFA = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					DDFF9C60245DC25D000FFAFA = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = DDFF9C47245DC25B000FFAFA;
+					};
+					DDFF9C6B245DC25D000FFAFA = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = DDFF9C47245DC25B000FFAFA;
+					};
+				};
+			};
+			buildConfigurationList = DDFF9C43245DC25B000FFAFA /* Build configuration list for PBXProject "exercise_music" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDFF9C3F245DC25B000FFAFA;
+			productRefGroup = DDFF9C49245DC25B000FFAFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDFF9C47245DC25B000FFAFA /* exercise_music */,
+				DDFF9C60245DC25D000FFAFA /* exercise_musicTests */,
+				DDFF9C6B245DC25D000FFAFA /* exercise_musicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDFF9C46245DC25B000FFAFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDFF9C5B245DC25D000FFAFA /* LaunchScreen.storyboard in Resources */,
+				DDFF9C58245DC25D000FFAFA /* Assets.xcassets in Resources */,
+				DDFF9C53245DC25C000FFAFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFF9C5F245DC25D000FFAFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFF9C6A245DC25D000FFAFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C7142BB49E8AC5748B3E689 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-exercise_music/Pods-exercise_music-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-exercise_music/Pods-exercise_music-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-exercise_music/Pods-exercise_music-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		283C23E7572388D2309263FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-exercise_musicTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CEF94D617DAFA7FA25F2FE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-exercise_music-exercise_musicUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1B76ADADEA17AC7F5E8AA4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-exercise_music-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1F0E8411179FE423BA969A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-exercise_music-exercise_musicUITests/Pods-exercise_music-exercise_musicUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-exercise_music-exercise_musicUITests/Pods-exercise_music-exercise_musicUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-exercise_music-exercise_musicUITests/Pods-exercise_music-exercise_musicUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDFF9C44245DC25B000FFAFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDEBEAD3246551F900BE56C5 /* IAPManager.swift in Sources */,
+				DDFF9C50245DC25B000FFAFA /* LoginViewController.swift in Sources */,
+				DD000BE4245E7A9700C3B323 /* Mp3HeaderView.swift in Sources */,
+				DD56757E2465A2960056EEF6 /* Dispatchqueue.swift in Sources */,
+				DD000BDE245E741200C3B323 /* ListMp3Controller.swift in Sources */,
+				DD1567182462960300E8800B /* AboutUsController.swift in Sources */,
+				DDFF9CD9245DC940000FFAFA /* ACFloatingTextField.m in Sources */,
+				DDFF9CFD245DD7C0000FFAFA /* SignupViewController.swift in Sources */,
+				DDFF9CE1245DC940000FFAFA /* CircularSliderView.m in Sources */,
+				DDFF9CD4245DC940000FFAFA /* SWRevealViewController.m in Sources */,
+				DDEBEAD124654D4D00BE56C5 /* MusicProduct.swift in Sources */,
+				DD1567212462996F00E8800B /* RateUsController.swift in Sources */,
+				DDFF9CD5245DC940000FFAFA /* HelperMethod.m in Sources */,
+				DDFF9D01245DD8C1000FFAFA /* ForgotPasswordController.swift in Sources */,
+				DD000BE2245E7A5400C3B323 /* Mp3Cell.swift in Sources */,
+				DDFF9CF3245DCABE000FFAFA /* DownloadObj.swift in Sources */,
+				DDFF9CCD245DC940000FFAFA /* Image.swift in Sources */,
+				DDFF9CDC245DC940000FFAFA /* Reachability.swift in Sources */,
+				DD0BBFC92461F7C5008F169F /* PVRadioButtonView.swift in Sources */,
+				DD1567232462B17F00E8800B /* TermsPolicyController.swift in Sources */,
+				DD10837324614C47000D6729 /* VKCheckbox.swift in Sources */,
+				DDFF9CE2245DC940000FFAFA /* EFCircularTrig.m in Sources */,
+				DDFF9CCF245DC940000FFAFA /* ImageDownloader.swift in Sources */,
+				DDFF9C4C245DC25B000FFAFA /* AppDelegate.swift in Sources */,
+				DDFF9CF4245DCABE000FFAFA /* Download.swift in Sources */,
+				DDFF9CC6245DC940000FFAFA /* doAlamoFire.swift in Sources */,
+				DD15671D2462995200E8800B /* InviteShareController.swift in Sources */,
+				DDFF9CD3245DC940000FFAFA /* RadioButton.m in Sources */,
+				DDFF9CCA245DC940000FFAFA /* ImageCache.swift in Sources */,
+				DDFF9CD0245DC940000FFAFA /* UIImageView+AlamofireImage.swift in Sources */,
+				DDFF9CCE245DC940000FFAFA /* UIButton+AlamofireImage.swift in Sources */,
+				DD000BE0245E743900C3B323 /* DetailPlayerController.swift in Sources */,
+				DDFF9C4E245DC25B000FFAFA /* SceneDelegate.swift in Sources */,
+				DD0BBFC42461E18A008F169F /* StatsViewController.swift in Sources */,
+				DDFF9C56245DC25C000FFAFA /* exercise_music.xcdatamodeld in Sources */,
+				DDFF9CDE245DC940000FFAFA /* Jukebox.swift in Sources */,
+				DDFF9CCC245DC940000FFAFA /* AFIError.swift in Sources */,
+				DD0BBFCB2461F7F0008F169F /* PVRadioButtonGroup.swift in Sources */,
+				DDFF9CC7245DC940000FFAFA /* Service.swift in Sources */,
+				DDFF9CE3245DC940000FFAFA /* EFCircularSlider.m in Sources */,
+				DDFF9CDF245DC940000FFAFA /* JukeBoxUtils.swift in Sources */,
+				DDFF9CD8245DC940000FFAFA /* Utils.swift in Sources */,
+				DDFF9CDB245DC940000FFAFA /* AppConstant.swift in Sources */,
+				DDFF9CC9245DC940000FFAFA /* UIButton+RWBlock.m in Sources */,
+				DDFF9CDA245DC940000FFAFA /* ACFloatingTextField+ClipBoard.m in Sources */,
+				DDFF9CE4245DC940000FFAFA /* F3BarGauge.m in Sources */,
+				DDFF9CD7245DC940000FFAFA /* UINavigationBar+CustomNavigation.m in Sources */,
+				DDFF9CCB245DC940000FFAFA /* UIImage+AlamofireImage.swift in Sources */,
+				DDFF9CE0245DC940000FFAFA /* RealmUtils.swift in Sources */,
+				DD1C37002462F4CC00E5867F /* EditProfileController.swift in Sources */,
+				DDFF9CFF245DD818000FFAFA /* WelcomeViewController.swift in Sources */,
+				DD2AD6C7245F53AD00435FD3 /* Authentication.swift in Sources */,
+				DDFF9CD1245DC940000FFAFA /* Request+AlamofireImage.swift in Sources */,
+				DDFF9CF2245DCABE000FFAFA /* CategoryObj.swift in Sources */,
+				DD0BBFCD2461F7F8008F169F /* PVRadioButton.swift in Sources */,
+				DDFF9CE5245DC940000FFAFA /* MBProgressHUD.m in Sources */,
+				DDFF9CD2245DC940000FFAFA /* ImageFilter.swift in Sources */,
+				DDFF9CD6245DC940000FFAFA /* ALToastView.m in Sources */,
+				DDFF9CC8245DC940000FFAFA /* Adapter.swift in Sources */,
+				DDFF9CDD245DC940000FFAFA /* JukeboxItem.swift in Sources */,
+				DD0BBFC62461EC74008F169F /* SettingsViewController.swift in Sources */,
+				DD15671F2462996300E8800B /* FeddbackController.swift in Sources */,
+				DD16C7392465C3D8002615B6 /* PremiumController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFF9C5D245DC25D000FFAFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDFF9C66245DC25D000FFAFA /* exercise_musicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFF9C68245DC25D000FFAFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDFF9C71245DC25D000FFAFA /* exercise_musicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDFF9C63245DC25D000FFAFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDFF9C47245DC25B000FFAFA /* exercise_music */;
+			targetProxy = DDFF9C62245DC25D000FFAFA /* PBXContainerItemProxy */;
+		};
+		DDFF9C6E245DC25D000FFAFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDFF9C47245DC25B000FFAFA /* exercise_music */;
+			targetProxy = DDFF9C6D245DC25D000FFAFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDFF9C51245DC25C000FFAFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDFF9C52245DC25C000FFAFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDFF9C59245DC25D000FFAFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDFF9C5A245DC25D000FFAFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDFF9C73245DC25D000FFAFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDFF9C74245DC25D000FFAFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDFF9C76245DC25D000FFAFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91B4E3F9E3D207ED4F1438B7 /* Pods-exercise_music.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = JETZT9798B;
+				INFOPLIST_FILE = exercise_music/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mark.exercisemusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = provisioning1;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OBJC_BRIDGING_HEADER = "exercise_music/Resources/exercise_music-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDFF9C77245DC25D000FFAFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55AA1391670546883374E15D /* Pods-exercise_music.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = JETZT9798B;
+				INFOPLIST_FILE = exercise_music/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mark.exercisemusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = provisioning1;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OBJC_BRIDGING_HEADER = "exercise_music/Resources/exercise_music-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DDFF9C79245DC25D000FFAFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D31C785AB25E95FF34873C5A /* Pods-exercise_musicTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = exercise_musicTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mark.exercise-musicTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/exercise_music.app/exercise_music";
+			};
+			name = Debug;
+		};
+		DDFF9C7A245DC25D000FFAFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F43854C6CBBC3427CF25C7A5 /* Pods-exercise_musicTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = exercise_musicTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mark.exercise-musicTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/exercise_music.app/exercise_music";
+			};
+			name = Release;
+		};
+		DDFF9C7C245DC25D000FFAFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 918FA74005410A5561CB83B8 /* Pods-exercise_music-exercise_musicUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = exercise_musicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mark.exercise-musicUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = exercise_music;
+			};
+			name = Debug;
+		};
+		DDFF9C7D245DC25D000FFAFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30D88C658D9CD3FE921221D1 /* Pods-exercise_music-exercise_musicUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = exercise_musicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mark.exercise-musicUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = exercise_music;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDFF9C43245DC25B000FFAFA /* Build configuration list for PBXProject "exercise_music" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDFF9C73245DC25D000FFAFA /* Debug */,
+				DDFF9C74245DC25D000FFAFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDFF9C75245DC25D000FFAFA /* Build configuration list for PBXNativeTarget "exercise_music" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDFF9C76245DC25D000FFAFA /* Debug */,
+				DDFF9C77245DC25D000FFAFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDFF9C78245DC25D000FFAFA /* Build configuration list for PBXNativeTarget "exercise_musicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDFF9C79245DC25D000FFAFA /* Debug */,
+				DDFF9C7A245DC25D000FFAFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDFF9C7B245DC25D000FFAFA /* Build configuration list for PBXNativeTarget "exercise_musicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDFF9C7C245DC25D000FFAFA /* Debug */,
+				DDFF9C7D245DC25D000FFAFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DDFF9C54245DC25C000FFAFA /* exercise_music.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DDFF9C55245DC25C000FFAFA /* exercise_music.xcdatamodel */,
+			);
+			currentVersion = DDFF9C55245DC25C000FFAFA /* exercise_music.xcdatamodel */;
+			path = exercise_music.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DDFF9C40245DC25B000FFAFA /* Project object */;
+}
